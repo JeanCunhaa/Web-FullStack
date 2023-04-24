@@ -35,7 +35,7 @@ function Home() {
                                 </TextFieldContainer>
                                 <TextFieldContainer>
                                     <EntrarContainer>Ja tem uma conta?</EntrarContainer>
-                                    <BtnEntrarContainer to="/principal">Entrar</BtnEntrarContainer>
+                                    <BtnEntrarContainer to="/entrar">Entrar</BtnEntrarContainer>
                                 </TextFieldContainer>
                                 
                             </CardLoginContainer>
