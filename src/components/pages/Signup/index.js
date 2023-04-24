@@ -30,13 +30,13 @@ const Signup = () => {
       return;
     }
 
-    alert("Usuário cadatrado com sucesso!");
-    navigate("/");
+    alert("Usuário cadastrado com sucesso!");
+    navigate("/entrar");
   };
 
   return (
     <C.Container>
-      <C.Label>SISTEMA DE LOGIN</C.Label>
+      <C.Label>Login</C.Label>
       <C.Content>
         <Input
           type="email"
