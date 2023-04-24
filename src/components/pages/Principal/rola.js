@@ -42,7 +42,7 @@ export default function Principal() {
       .then((res) => {
         const temp = res.data;
         setTeste(temp);
-        setMoedaNome(temp.name);
+        set(temp.name);
         let variacao = (temp.high_24h - temp.low_24h) / 100
         setMoedaPreco("R$ " + temp.price.split(".")[0].toString() + "," + temp.price.split(".")[1].toString().substring(0, 2));
         setMoedaVariacao(variacao.toString().split(".")[0]+","+variacao.toString().split(".")[1].substring(0,1) + "%");
@@ -201,7 +201,7 @@ export default function Principal() {
         </div>
         <div className="grafico">
           <h3>
-            Gráfico em BRL
+            Gráfico de <span className="ativo">{MoedaNome}</span> para BRL
           </h3>
         </div>
       </div>

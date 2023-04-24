@@ -124,6 +124,7 @@ h1{
 /* CONTEÚDO PRINCIPAL */
 
 .grid-container {
+  opacity: 0;
     background-color: #2f2841;
     font-weight: 800;
     letter-spacing: 3px;
